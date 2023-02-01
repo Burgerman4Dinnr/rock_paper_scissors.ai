@@ -1,0 +1,54 @@
+#game {
+  text-align: center;
+}
+
+#buttons button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#result {
+  margin: 20px;
+  font-size: 30px;
+}
+
+#reset-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.selected {
+  background-color: red;
+  color: white;
+}
+.ai-selected {
+  background-color: blue;
+  color: white;
+}
+
+img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+body {
+  background: url(https://i.pinimg.com/originals/12/c6/87/12c687db5fb0a4bfc322e8d3645a816c.png);
+}
+
+.hText, .p-tag {
+  color: red;
+}
+
+.hText {
+  font-family: monospace;
+  border-bottom: 2px red solid;
+}
+
+#reset {
+  margin-top: 50px
+}
